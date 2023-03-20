@@ -1,9 +1,9 @@
 const citiesSort = (cities) => {
   return cities.sort((a, b) => {
-    if (a.temp > b.temp) {
+    if (a.temperature > b.temperature) {
       return 1;
     }
-    if (a.temp < b.temp) {
+    if (a.temperature < b.temperature) {
       return -1;
     }
     return 0;
